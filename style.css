@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2e4a7d;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #3b5998;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+  padding: 16px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e0f7fa;
+  color: #000000;
+}
+
+section {
+  padding: 20px 20px;
+  margin: auto;
+  background-color: transparent;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #2e4a7d;
+  margin-bottom: 20px;
+  font-size: 2em;
+  border-bottom: 2px solid #2e4a7d;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+h3 {
+  color: #2e4a7d;
+  margin-bottom: 20px;
+  font-size: 2em;
+  border-bottom: 2px solid #2e4a7d;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+
+
+#services {background: url(10.jpg.webp);}
+#about {background: url(11.webp);}
+#gallery {background: url(13.jpg);}
+#booking {background: url(17.jpg);}
+#contact {background: url(14.jpg);}
+#Home {background: url(15.webp);}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.logo {
+  max-width: 300px;
+  height: 150px;
+}
+
+/* Service list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e0f7fa;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr {
+    background-color: #f0f0f0;
+  }
+
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+/* Booking Form */
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 20px;
+
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e4a7d;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e0f7fa;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e4a7d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+}
